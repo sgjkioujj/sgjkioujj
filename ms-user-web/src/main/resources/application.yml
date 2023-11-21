@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    session:
+      timeout: 60
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+    #joda-date-time-format: yyyy-MM-dd HH:mm:ss
+  profiles:
+    active: dev
+  application:
+    name: ms-user
