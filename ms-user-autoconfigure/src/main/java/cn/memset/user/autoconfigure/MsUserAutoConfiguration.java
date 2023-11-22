@@ -14,5 +14,6 @@ import org.springframework.context.annotation.Import;
 @EnableConfigurationProperties(MsUserConfiguration.class)
 @Import({UserFeignClient.UserFallbackFactory.class})
 public class MsUserAutoConfiguration {
+     private int i;
 }
 
